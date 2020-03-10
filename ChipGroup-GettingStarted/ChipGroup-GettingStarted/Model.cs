@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ChipGroup_GettingStarted
 {
-    public class Langugae
+    public class Language
     {
         public string Name
         {

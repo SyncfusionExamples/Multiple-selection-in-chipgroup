@@ -9,8 +9,8 @@ namespace ChipGroup_GettingStarted
     public class ViewModel : INotifyPropertyChanged
     {
 
-        private ObservableCollection<Langugae> languages;
-        public ObservableCollection<Langugae> Languages
+        private ObservableCollection<Language> languages;
+        public ObservableCollection<Language> Languages
         {
             get
             {
@@ -23,8 +23,8 @@ namespace ChipGroup_GettingStarted
             }
         }
 
-        private ObservableCollection<Langugae> selectedItems;
-        public ObservableCollection<Langugae> SelectedItems
+        private ObservableCollection<Language> selectedItems;
+        public ObservableCollection<Language> SelectedItems
         {
             get
             {
@@ -39,13 +39,13 @@ namespace ChipGroup_GettingStarted
 
         public ViewModel()
         {
-            Languages = new ObservableCollection<Langugae>();
-            Languages.Add(new Langugae() { Name = "C#" });
-            Languages.Add(new Langugae() { Name = "HTML" });
-            Languages.Add(new Langugae() { Name = "Java" });
-            Languages.Add(new Langugae() { Name = "JS" });
+            Languages = new ObservableCollection<Language>();
+            Languages.Add(new Language() { Name = "C#" });
+            Languages.Add(new Language() { Name = "HTML" });
+            Languages.Add(new Language() { Name = "Java" });
+            Languages.Add(new Language() { Name = "JS" });
 
-            selectedItems = new ObservableCollection<Langugae>() { Languages[0], Languages[1] };
+            selectedItems = new ObservableCollection<Language>() { Languages[0], Languages[1] };
 
         }
 
