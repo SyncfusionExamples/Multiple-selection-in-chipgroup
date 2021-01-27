@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="75fadf45-982c-4856-b7b3-3053e9e08f96"
-    Publisher="CN=3a1f8087-d4e4-4fda-b8c0-715f7e63f107"
+    Name="4b30c867-d0ea-4278-9ce9-b4c1be0a8e2b"
+    Publisher="CN=9800960d-4688-4ccd-8b3f-34a478862459"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>ChipGroup_GettingStarted.UWP</DisplayName>
-    <PublisherDisplayName>3a1f8087-d4e4-4fda-b8c0-715f7e63f107</PublisherDisplayName>
+    <PublisherDisplayName>9800960d-4688-4ccd-8b3f-34a478862459</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
