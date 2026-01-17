@@ -1,6 +1,9 @@
 ﻿using System;
-using System.Collections.ObjectModel;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace ChipGroup_GettingStarted
@@ -17,5 +20,6 @@ namespace ChipGroup_GettingStarted
             var viewModel = (BindingContext as ViewModel);
             viewModel.SelectedItems.Add(viewModel.Languages[2]);
         }
+
     }
 }
